@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 77px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin-left: 10px;
+
+}
+
+.links {
+    padding-top: 14px;
+    margin-left: 290px;
+}
+
+.links>a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #333;
+    transition: all 60ms;
+}
+.links>a:hover {
+    color: #000;
+    border-bottom: solid #ff0000;
+}
+
+.loginpage {
+    padding-top: 5px;
+    margin-left: 100px;
+
+}
+
+.login {
+    background: #0015ff39;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    transition: .7s;
+}
+
+
+.SignUp {
+    background: #F48C06;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 50px;
+    transition: .7s;
+}
+
+.SignUp:hover {
+    background: rgb(255, 47, 0);
+    transform: translateY(-13px);
+    color: #fff;
+}
+
+.login:hover {
+    background: #b78888;
+    transform: translateY(-13px);
+    color: #fff;
+}
+
+/* center section */
+
+.center>h1 {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 54px;
+    color: #2F327D;
+
+}
+
+.text {
+    color: #F48C06;
+}
+
+.center>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.4px;
+    text-align: left;
+    color: #464646;
+}
+
+.join {
+    width: 150px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    background: #F48C06;
+    color: #fff;
+    font-size: 18px;
+    transition: all .7s;
+}
+
+.join:hover {
+    width: 150px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    background: #424040;
+    color: #ff6f00;
+    font-size: 18px;
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: antiquewhite;
+    transition: all .7s;
+}
+.play:hover {
+    background: rgb(0, 0, 0);
+}
+
+.play>i {
+    color: #23BDEE;
+    font-size: 19px;
+    text-align: center;
+}
+
+.center>a {
+    text-decoration: none;
+    color: #444;
+}
+
+.qiz {
+    margin-left: 50em;
+    margin-top: -35em;
+    width: 500px;
+
+}
+
+.company>img {
+    margin-top: 150px;
+    width: 1033px;
+    margin-left: 167px;
+}
+
+.cloud {
+    margin-top: 160px;
+    text-align: center;
+    color: #2F327D;
+}
+
+.cloud>h2>span {
+    color: #F48C06;
+}
+
+.cards {
+    margin-top: 160px;
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+.card1 {
+    box-shadow: 0px 20px 60px 0px #0015ff39;
+    width: 340px;
+    height: 320px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.card2 {
+    box-shadow: 0px 20px 60px 0px #0015ff39;
+    width: 340px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.card3 {
+    box-shadow: 0px 20px 60px 0px #0015ff39;
+    width: 340px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.fall {
+    padding-top: 100px;
+    transition: all .7s;
+}
+
+.fall:hover {
+    transform: translateY(-40px);
+}
+
+.fall>h3 {
+    margin-top: 40px;
+}
+
+.pic>img {
+    width: 100px;
+    margin-top: -200px;
+}
+
+.skill {
+    margin-top: 158px;
+    text-align: center;
+    color: #2F327D;
+}
+
+.skill>p {
+    margin-left: 100px;
+    max-width: 1100px;
+    font-size: 24px;
+}
+
+.skill>h1>span {
+    color: #F48C06;
+}
+
+.skill>h1 {
+    font-size: 44px;
+}
+
+.skillcard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #FFFFFF;
+}
+
+.techer {
+    background-image: url(img/Group\ 22.svg);
+    background-repeat: no-repeat;
+    height: 399px;
+    width: 600px;
+}
+
+.student {
+    background-image: url(img/Group\ 23.svg);
+    background-repeat: no-repeat;
+    height: 399px;
+    width: 600px;
+}
+
+.techer>button {
+    background: #ffffff00;
+    border: none;
+    border: #fff 1px solid;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 80px;
+    margin-top: 50px;
+    width: 283px;
+    height: 80px;
+    transition: all .7s;
+}
+
+.techer>button:hover {
+    background: #8de4ffe5;
+    transform: translateY(-20px);
+    color: #000;
+}
+
+.student>button {
+    background: #23BDEEE5;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 80px;
+    margin-top: 50px;
+    width: 283px;
+    height: 80px;
+    transition: all .7s;
+}
+
+.student>button:hover {
+    background: #23bfee00;
+    transform: translateY(-20px);
+    border: #fff 1px solid;
+}
+
+.techer>h1 {
+    margin-top: 100px;
+}
+
+.student>h1 {
+    margin-top: 100px;
+}
+
+.evrth {
+    position: relative;
+    top: 200px;
+    color: #2F327D;
+}
+
+.evrth>h1 {
+    font-size: 36px;
+}
+
+.evrth>p {
+    font-size: 20px;
+}
+
+.evrth>h1>span {
+    color: #F48C06;
+}
+
+.tech-stu>img {
+    position: absolute;
+    width: 600px;
+    margin-left: 59em;
+    margin-top: -150px;
+}
+
+.blue {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: rgba(35, 189, 238, 1);
+    right: 590px;
+    top: 241em;
+}
+
+.orange {
+    position: absolute;
+    width: 231px;
+    height: 231px;
+    top: 258em;
+    left: 100em;
+    border-radius: 20px;
+    background: rgba(243, 172, 80, 1);
+
+
+}
+
+
+.footer {
+    position: relative;
+    margin-top: 300px;
+    background: rgba(37, 38, 65, 1);
+    width: 1519px;
+    height: 493px;
+    left: -100px;
+}
+
+.footer-img {
+    padding-top: 74px;
+    margin-left: 580px;
+}
+
+.footer>h1 {
+    text-align: center;
+    font-size: 26px;
+    color: rgba(178, 179, 207, 1);
+}
+
+input {
+    margin-left: 580px;
+    width: 299px;
+    height: 40px;
+    border: 1px solid rgba(131, 131, 154, 1);
+    border-radius: 80px;
+    font-size: 15px;
+    padding-left: 30px;
+    background: #00000000;
+
+}
+
+.footer>button{
+    width: 99px;
+    height: 42px;
+    border: 1px;
+    border-radius: 80px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #000;
+    transition:  .7s;
+    color: aqua;
+    background: linear-gradient(10deg, #0008ff 19.57%, #393FCF 78.85%);
+}
+.footer>button:hover{
+    box-shadow: 0px 0px 60px -10px #0015ff;
+    background:blue;
+    color: #fff;
+}
+
+.footer-links{
+    margin-top: 100px;
+    margin-left: 640px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links>a{
+    color:rgba(178, 179, 207, 1);
+    text-decoration: none;
+}
+
+.copy{
+    margin-top: 50px;
+    font-size: 17px;
+}
